@@ -1,0 +1,5 @@
+<defaultPool> 36 </defaultPool>
+<lowEnginePool> 16 </lowEnginePool>
+<streamingPool> 24 </streamingPool>
+<IOPoolSize> 8 </IOPoolSize>
+<IOGranularity> 16 </IOGranularity>

@@ -1,0 +1,26 @@
+https://docs.google.com/document/d/1fEGU83qZ6KYwmHTDgdTOfRRqT8HYQ900GVIw-UoRENY/edit#
+
+IOGranularity - only sets the block size, no need to change
+streamingPool - buffer for streaming sounds from disk
+IOPoolSize - internal memory for wwise
+defaultPool - buffer size or default engine, what gets loaded into memory?
+lowEnginePool - buffer size of low quality pool, what gets loaded into memory?
+
+memoryLimit:
+- set to 250 max
+- more like a warning
+
+TO TEST:
+-use replay
+-karcough and stalingrad, highest sound resoucres.
+
+NOTES:
+gnomefather is known for crashing a lot. some are in streaming pool, some are in normal memory.
+
+steaming for:
+gun sounds, music, atnosphere, background, tracks, engine
+
+into memory:
+gui sounds, crew sounds
+
+pck files are from disk, compressed with wwise packager

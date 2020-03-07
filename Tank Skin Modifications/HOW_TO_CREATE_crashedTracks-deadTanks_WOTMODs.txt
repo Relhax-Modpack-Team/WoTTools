@@ -1,0 +1,14 @@
+To create the updated crashedTracksBase.wotmod and DeadTanksBase.wotmod files, 
+edit the CT_DT_wotmod.cmd first:
+
+1.  line 8:    set _wot_dir=C:\Games\World_of_Tanks     <-  use your installation path here
+2.  line 9:   set _wotmod_ver=1.5.1.3                  <-  use current game version
+3.  Save and run it
+4.  The wotmods now can be found inside World_of_Tanks\mods\versiondir\
+
+
+ATTENTION:
+this mod is using a patch for the "load_order.xml".
+this means that there is a reference to the current name of the .wotmod files!
+it will save time when you are using ONLY the provided "CT_DT_wotmod.cmd" to create the new ones.
+if not, you have to rename the wotmod or edit the load_order.xml every time after creating.
