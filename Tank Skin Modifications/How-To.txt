@@ -1,0 +1,37 @@
+MCT v2
+
+BASE FILES:
+This will show you how to create the crashedTracksBase.wotmod and DeadTanksBase.wotmod files. 
+
+step 1.)  open mct2_ct-dt_white.bat-file in editor
+step 2.)  line 3: use your installation path here
+step 3.)  line 5+6: use your installation path and current game version 
+          this will rename the created files to the relhax-default names.
+          and it will delete old versions if they are still in the mods folder.
+step 4.)  run the bat
+step 5.)  go to your mods\version dir. you will find the MCT.wotmods.
+          now you will notice if step 3 failed. 
+          if so, you need to manually edit the wotmods names.
+step 6.)  update the zip with the new wotmods.
+
+
+COLORFILES:
+in some cases the colorfiles also need an update.
+in order to do that you need to edit all *.bat files with the correct path/wotversion before running them.
+run one bat.
+from the created wotmod extract the colorfile and put it into the zip (without wotmod).
+run the next bat.
+repeat...
+
+
+ATTENTION:
+this mod is using a patch for the "load_order.xml".
+this means that there is a reference to the current name of the .wotmod files!
+so you have to rename the wotmod or edit the load_order.xml every time after creating.
+
+
+dev:
+https://koreanrandom.com/forum/topic/1578-mctcreator2-однотонные-текстуры-танков-цветные-гусеницы-вагоны-полупрозрачные-камуфляжи-версия-205-дата-01022020/#comments
+
+configs:
+https://github.com/StranikS-Scan/MCTCreator-Configs
