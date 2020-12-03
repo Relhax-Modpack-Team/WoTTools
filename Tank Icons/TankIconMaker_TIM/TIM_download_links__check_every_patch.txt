@@ -1,7 +1,0 @@
-https://koreanrandom.com/forum/topic/33221-tankiconmaker
-
-dl: 
-https://ci.appveyor.com/project/rstarkov/tankiconmaker/build/artifacts
-https://github.com/rstarkov/TankIconMaker/
-
-!! do not forget to copy all cfg-folders and image-folders from the old to the new TIM !!
