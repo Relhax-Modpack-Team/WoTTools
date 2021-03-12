@@ -1,0 +1,89 @@
+<audio_mods.xml>
+
+	<!-- Load Banks -->
+    <loadBanks>
+		<bank>
+            <name>bank_1.bnk</name>
+
+			<!-- Between 0 and 100. 50 if not specified -->
+			<!-- Banks with lower priority will be unloaded first in case of WWise memory poll exhaustion -->
+			<priority>50</priority> 
+        </bank>
+
+        <bank>
+            <name>bank_2.bnk</name>
+        </bank>
+	</loadBanks>
+
+
+	<!-- Event -->
+	<events>
+		<event>
+			<!--name of the replaceble event-->
+			<name>wpn_main_extra_PC</name>
+
+			<!--name of the new event-->
+			<mod>wpn_main_extra_PC_mod</mod>
+		</event>
+	</events>
+
+
+	<!-- Switches -->
+	<switches>
+		<switch>
+			<name>SW1</name>
+			<mod>SW1_mod</mod>
+			<states>
+				<state>
+					<name>ST1</name>
+					<mod>ST1_mod</mod>
+				</state>
+				<state>
+					<name>ST2</name>
+					<mod>ST2_mod</mod>
+				</state>
+				<state>
+					<name>ST3</name>
+					<mod>ST3_mod</mod>
+				</state>
+			</states>
+		</switch>
+	</switches>
+
+
+	<!-- RTPCs -->
+	<RTPCs>
+		<RTPC>
+			<name>RTPC_ext_speed_abs</name>
+			<mod>RTPC_ext_speed_abs_mod</mod>
+		</RTPC>
+		<RTPC>
+			<name>RTPC_2</name>
+			<mod>RTPC_2_mod</mod>
+		</RTPC>
+	</RTPCs>
+
+
+	<!-- States -->
+	<states>
+		<stateGroup>
+			<name>STG1</name>
+			<mod>STG1_mod</mod>
+			<stateNames>
+				<state>
+					<name>ST1</name>
+					<mod>ST1_mod</mod>
+				</state>
+				<state>
+					<name>ST2</name>
+					<mod>ST2_mod</mod>
+				</state>
+				<state>
+					<name>ST3</name>
+					<mod>ST3_mod</mod>
+				</state>
+			</stateNames>
+		</stateGroup>
+	</states>
+
+</audio_mods.xml>
